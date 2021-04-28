@@ -1,0 +1,109 @@
+
+
+
+html,body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	margin: 0;
+	background: rgba(0,0,0,0.66);
+  	color: white;
+  	position: relative;
+  	padding: 1rem;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.viewport-header {
+  position: relative;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: column nowrap;
+}
+
+h1 {
+	font-family: 'Expletus Sans', monospace; 
+	/*font-weight: 400;*/
+	font-size: 6rem;
+	margin: auto;
+
+}
+
+.material-icons.md-60 { 
+	font-size: 6rem; 
+}
+
+
+h2 {
+	font-size: 3rem;
+	margin: auto;	
+}
+
+main {
+  	background: rgba(0,0,0,0.88);
+  	position: relative;
+  	padding: 1rem;
+  	}
+
+.content-scroller {
+    max-width: 600px;
+    margin: 1rem auto;
+}
+
+.subhead{
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+h5 {text-transform: uppercase;
+	font-weight: 900;
+}
+	
+.carousel-caption {font-weight: 900;}
+
+
+.carblack{color: black;}
+
+.carwhite{color: white;}
+
+a:hover { text-decoration: none; }
+
+a { text-decoration: none; }
+
+.btn {
+	font-size: 2rem;
+	border-radius: 300px;
+	text-transform: uppercase;
+
+}
+
+.btn-primary {
+	background-color: transparent;
+	border-color: grey;
+
+}
+
+.btn-primary:hover {
+	background-color: #3D425A;
+	border-color: #3D425A;
+
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+	margin-top: .5rem;
+	font-family: 'Expletus Sans', monospace;
+}
+
+
