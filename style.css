@@ -15,6 +15,16 @@ body {
   	padding: 1rem;
 }
 
+#back-vid:before {
+	top: 0;
+  	left: 0;
+	z-index:1;
+	content: '';
+    position: fixed;
+    height: 100vw;
+    width: 100vh;
+    background: linear-gradient(to right,rgba(65, 0, 255, 0.4),rgba(255, 0, 232, 0.3));
+}
 video {
   object-fit: cover;
   width: 100vw;
@@ -51,7 +61,7 @@ h2 {
 }
 
 main {
-  	background: rgba(0,0,0,0.88);
+  	background: transparent;
   	position: relative;
   	padding: 1rem;
   	}
@@ -76,6 +86,16 @@ h5 {text-transform: uppercase;
 .carblack{color: black;}
 
 .carwhite{color: white;}
+
+input{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
 
 a:hover { text-decoration: none; }
 
