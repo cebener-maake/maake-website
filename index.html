@@ -46,12 +46,13 @@
 
   </head>
   
-   <body>
+  <body>
 
-    <video autoplay loop playsinline muted>
-      <source src="video.mp4" type="video/mp4">
-    </video>
-   
+    <div id="back-vid">
+      <video autoplay loop playsinline muted>
+        <source src="video.mp4" type="video/mp4">
+      </video>
+    </div>  
    <header class="viewport-header">
       <h1> MA<span class="material-icons md-60">wifi_tethering</span>KE 
       </h1>
@@ -113,25 +114,23 @@
           <span class="visually-hidden">Next</span>
         </button>
         </div>            
+      
       </p>
+      <br>
+      <h2 class="text-uppercase subhead"> Let's Talk</h2>
       
       <form id="contact-form">
         <input type="hidden" name="contact_number">
-        <label>Name</label>
-        <input type="text" name="user_name">
-        <label>Email</label>
-        <input type="email" name="user_email">
-        <label>Message</label>
-        <textarea name="message"></textarea>
+        <label>Name</label><br>
+        <input type="text" name="user_name"><br>
+        <label>Email</label><br>
+        <input type="email" name="user_email"><br>
+        <label>Message</label><br>
+        <textarea name="message"></textarea><br>
         <input type="submit" value="Send">
       </form>
       
-      <a href="https://mailchi.mp/7ef3da122e65/request-discovery-session">
-        <div class="d-grid gap-2 col-12 mx-auto">
-          <button class="btn btn-primary btn-xl" type="button">Let's Talk</button>        
-        </div>
-      </a> 
-    
+      
     </main>
 
 
