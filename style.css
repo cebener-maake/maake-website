@@ -10,7 +10,9 @@ html,body {
 body {
 	margin: 0;
 	background: rgba(0,0,0,0.66);
+	
   	color: white;
+	
   	position: relative;
   	padding: 1rem;
 }
