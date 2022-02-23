@@ -18,12 +18,13 @@ body {
 #back-vid:before {
 	top: 0;
   	left: 0;
-	z-index:1;
+	z-index: 0;;
 	content: '';
     position: fixed;
-    height: 100vw;
-    width: 100vh;
-    background: linear-gradient(to right,rgba(65, 0, 255, 0.4),rgba(255, 0, 232, 0.3));
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.75);
+	object-fit: cover;
 }
 video {
   object-fit: cover;
@@ -32,6 +33,7 @@ video {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: -1;
 }
 .viewport-header {
   position: relative;
