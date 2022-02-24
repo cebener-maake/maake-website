@@ -5,4 +5,6 @@
 * Unbranded Contact Form
     * EmailJS 
     * Twilio SendGrid API 
+* Responsive
+* CICD Pipeline
 
