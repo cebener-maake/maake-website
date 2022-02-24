@@ -25,7 +25,7 @@ body {
     position: fixed;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(2, 44, 99, 0.808);
 	object-fit: cover;
 }
 video {
@@ -49,18 +49,18 @@ video {
 h1 {
 	font-family: 'Expletus Sans', monospace; 
 	/*font-weight: 400;*/
-	font-size: 6rem;
+	font-size: 12vw;
 	margin: auto;
 
 }
 
 .material-icons.md-60 { 
-	font-size: 6rem; 
+	font-size: 12vw; 
 }
 
 
 h2 {
-	font-size: 3rem;
+	font-size: 300%;
 	margin: auto;	
 }
 
@@ -80,36 +80,38 @@ main {
 	margin-bottom: 2rem;
 }
 
-h5 {text-transform: uppercase;
-	font-weight: 900;
+h5 {
+	text-transform: uppercase;
+	font-size: 2.5vw; 	
 }
+
 	
-.carousel-caption {font-weight: 900;}
+.carousel-caption {font-size: 2vw;}
 
 
 .carblack{color: black;}
 
 .carwhite{color: white;}
-
+.form-floating{
+	color: black;
+	
+}
 input{
 	width: 100%;
 	padding: 12px 20px;
 	margin: 8px 0;
 	display: inline-block;
-	border: 1px solid #ccc;
+	border: 1px solid rgb(255, 255, 255);
 	border-radius: 4px;
 	box-sizing: border-box;
+	
+	
 }
 
-a:hover { text-decoration: none; }
-
-a { text-decoration: none; }
-
 .btn {
-	font-size: 2rem;
-	border-radius: 300px;
+	font-size: 2vw;
 	text-transform: uppercase;
-
+	
 }
 
 .btn-primary {
@@ -124,10 +126,6 @@ a { text-decoration: none; }
 
 }
 
-.btn-xl {
-	padding: 1rem 2rem;
-	margin-top: .5rem;
-	font-family: 'Expletus Sans', monospace;
-}
+
 
 
